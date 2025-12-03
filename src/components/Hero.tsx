@@ -37,7 +37,7 @@ export default function Hero() {
                 </div>
 
                 <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                    Tranquilidade Jurídica e <br />
+                    Tranquilidade Jurídica e <br className="hidden md:block" />
                     <span className="text-cyan-vibrant">Tecnologia para o seu Cartório</span>
                 </h1>
 
