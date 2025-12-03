@@ -3,7 +3,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 
 export default function About() {
     return (
-        <section id="about" className="py-20 bg-[#F5F7FA]">
+        <section id="about" className="py-20 bg-[#F5F7FA] border-t border-white/10">
             <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
                 {/* Image Column */}
                 <div className="w-full md:w-1/2">

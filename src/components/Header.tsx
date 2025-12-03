@@ -89,7 +89,7 @@ export default function Header() {
                 <div className="hidden md:block">
                     <Link
                         href="#contact"
-                        className="bg-cyan-vibrant hover:bg-cyan-600 text-white font-bold py-2 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg"
+                        className="bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-2 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-emerald-500/50"
                     >
                         Diagnóstico Gratuito
                     </Link>
@@ -148,7 +148,7 @@ export default function Header() {
                         ))}
                         <Link
                             href="#contact"
-                            className="bg-cyan-vibrant text-center text-white font-bold py-3 rounded-lg mt-4 block"
+                            className="bg-emerald-500 text-center text-white font-bold py-3 rounded-lg mt-4 block shadow-lg shadow-emerald-500/50"
                             onClick={() => setIsMobileMenuOpen(false)}
                         >
                             Diagnóstico Gratuito

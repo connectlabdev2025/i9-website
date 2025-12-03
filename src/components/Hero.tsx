@@ -49,7 +49,7 @@ export default function Hero() {
                 <div className="flex flex-col md:flex-row gap-4 justify-center">
                     <Link
                         href="#contact"
-                        className="bg-[#00AEEF] hover:bg-cyan-600 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 hover:shadow-[0_0_20px_rgba(0,174,239,0.6)] shadow-lg flex items-center justify-center gap-2"
+                        className="bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all transform hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.6)] shadow-lg shadow-emerald-500/50 flex items-center justify-center gap-2"
                     >
                         Quero adequar meu Cartório
                         <ArrowRight size={20} />

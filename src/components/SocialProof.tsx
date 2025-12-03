@@ -11,7 +11,7 @@ export default function SocialProof() {
     ];
 
     return (
-        <section className="py-16 bg-white border-t border-gray-100 overflow-hidden">
+        <section className="py-16 bg-white border-t border-white/10 overflow-hidden">
             <div className="container mx-auto px-4 text-center mb-10">
                 <h3 className="text-xl font-bold text-gray-400 uppercase tracking-widest">
                     Quem confia na I9 Software

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Provimento74() {
     return (
-        <section id="provimento" className="py-20 bg-[#0F172A] text-white">
+        <section id="provimento" className="py-20 bg-[#0F172A] text-white border-t border-white/10">
             <div className="container mx-auto px-4">
                 {/* Hero Section */}
                 <div className="text-center mb-16 max-w-4xl mx-auto">
@@ -102,7 +102,7 @@ export default function Provimento74() {
                     <Link
                         href="https://wa.me/55SEUNUMERO"
                         target="_blank"
-                        className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg"
+                        className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 px-8 rounded-full text-lg transition-all transform hover:scale-105 shadow-lg shadow-green-500/50"
                     >
                         <MessageCircle size={24} />
                         Falar com Especialista Agora

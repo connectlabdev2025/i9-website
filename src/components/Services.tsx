@@ -43,7 +43,7 @@ export default function Services() {
     ];
 
     return (
-        <section id="servicos" className="py-20 bg-[#1A2B4C] text-white">
+        <section id="servicos" className="py-20 bg-slate-900 text-white border-t border-white/10">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">

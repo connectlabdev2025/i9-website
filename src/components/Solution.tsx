@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 export default function Solution() {
     return (
-        <section id="solutions" className="py-20 bg-white">
+        <section id="solutions" className="py-20 bg-white border-t border-white/10">
             <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
                 {/* Text Content */}
                 <div className="w-full md:w-1/2">

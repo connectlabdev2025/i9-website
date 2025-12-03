@@ -3,7 +3,7 @@ import { CalendarCheck } from "lucide-react";
 
 export default function FinalCTA() {
     return (
-        <section className="relative py-20 bg-[#1A2B4C] overflow-hidden">
+        <section className="relative py-20 bg-[#1A2B4C] overflow-hidden border-t border-white/10">
             {/* Subtle Tech Texture / Overlay */}
             <div className="absolute inset-0 opacity-10 bg-[url('/hero-bg.jpg')] bg-cover bg-center mix-blend-overlay"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-[#1A2B4C] via-transparent to-[#1A2B4C]/80"></div>
@@ -22,7 +22,7 @@ export default function FinalCTA() {
                 <div className="flex justify-center">
                     <Link
                         href="#contact"
-                        className="group bg-[#00AEEF] hover:bg-cyan-600 text-white font-bold py-6 px-10 rounded-xl text-xl md:text-2xl transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(0,174,239,0.6)] shadow-2xl flex items-center gap-3"
+                        className="group bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-6 px-10 rounded-xl text-xl md:text-2xl transition-all transform hover:scale-105 hover:shadow-[0_0_30px_rgba(16,185,129,0.6)] shadow-2xl shadow-emerald-500/50 flex items-center gap-3"
                     >
                         <CalendarCheck size={32} className="group-hover:animate-pulse" />
                         Agendar Diagnóstico Gratuito
