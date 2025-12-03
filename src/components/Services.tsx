@@ -43,7 +43,7 @@ export default function Services() {
     ];
 
     return (
-        <section className="py-20 bg-[#1A2B4C] text-white">
+        <section id="servicos" className="py-20 bg-[#1A2B4C] text-white">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -68,7 +68,7 @@ export default function Services() {
                             <p className="text-gray-400 group-hover:text-gray-300 transition-colors mb-4">
                                 {service.description}
                             </p>
-                            <a href="#contact" className="inline-flex items-center text-[#00AEEF] font-semibold hover:underline">
+                            <a href={`#servico-${index + 1}`} className="inline-flex items-center text-[#00AEEF] font-semibold hover:underline">
                                 Saiba mais <ArrowRight size={16} className="ml-1" />
                             </a>
                         </div>
