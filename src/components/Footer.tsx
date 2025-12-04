@@ -29,7 +29,7 @@ export default function Footer() {
                             <li><Link href="#home" className="text-gray-400 hover:text-[#00AEEF] transition-colors">Início</Link></li>
                             <li><Link href="#about" className="text-gray-400 hover:text-[#00AEEF] transition-colors">Sobre Nós</Link></li>
                             <li><Link href="#solutions" className="text-gray-400 hover:text-[#00AEEF] transition-colors">Soluções</Link></li>
-                            <li><Link href="#provimento" className="text-gray-400 hover:text-[#00AEEF] transition-colors">Provimento 74</Link></li>
+                            <li><Link href="/provimento-74-guia" className="text-gray-400 hover:text-[#00AEEF] transition-colors">Provimento 74</Link></li>
                             <li><Link href="#contact" className="text-gray-400 hover:text-[#00AEEF] transition-colors">Contato</Link></li>
                         </ul>
                     </div>

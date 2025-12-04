@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import PainPoints from "@/components/PainPoints";
 import Solution from "@/components/Solution";
 import Services from "@/components/Services";
-import ServiceDetails from "@/components/ServiceDetails";
+
 import Provimento74 from "@/components/Provimento74";
 import About from "@/components/About";
 import SocialProof from "@/components/SocialProof";
@@ -19,7 +19,7 @@ export default function Home() {
       <PainPoints />
       <Solution />
       <Services />
-      <ServiceDetails />
+
       <Provimento74 />
       <About />
       <SocialProof />

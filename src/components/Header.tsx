@@ -18,21 +18,21 @@ export default function Header() {
     }, []);
 
     const solutionsLinks = [
-        { name: "Consultoria Provimento 74", href: "#servico-1" },
-        { name: "Suporte Técnico Mensal", href: "#servico-2" },
-        { name: "Backup em Nuvem Seguro", href: "#servico-3" },
-        { name: "Servidores de Alta Disponibilidade", href: "#servico-4" },
-        { name: "Firewall e Segurança", href: "#servico-5" },
-        { name: "LGPD para Cartórios", href: "#servico-6" },
+        { name: "Consultoria Provimento 74", href: "/servicos/consultoria-provimento" },
+        { name: "Suporte Técnico Mensal", href: "/servicos/suporte-tecnico" },
+        { name: "Backup em Nuvem Seguro", href: "/servicos/backup-nuvem" },
+        { name: "Servidores de Alta Disponibilidade", href: "/servicos/servidores-alta-disponibilidade" },
+        { name: "Firewall e Segurança", href: "/servicos/firewall-seguranca" },
+        { name: "LGPD para Cartórios", href: "/servicos/lgpd-cartorios" },
     ];
 
     const navLinks = [
-        { name: "Início", href: "#home" },
-        { name: "Sobre", href: "#about" },
+        { name: "Início", href: "/" },
+        { name: "Sobre", href: "/#about" },
         { name: "Soluções", href: "#solutions", hasDropdown: true },
-        { name: "Provimento 74", href: "#provimento" },
-        { name: "Blog", href: "#blog" },
-        { name: "Contato", href: "#contact" },
+        { name: "Provimento 74", href: "/provimento-74-guia" },
+        { name: "Blog", href: "/#blog" },
+        { name: "Contato", href: "/#contact" },
     ];
 
     return (
