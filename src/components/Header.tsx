@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
 
 export default function Header() {
@@ -19,10 +20,11 @@ export default function Header() {
 
     const solutionsLinks = [
         { name: "Consultoria Provimento 74", href: "/servicos/consultoria-provimento" },
-        { name: "Suporte Técnico Mensal", href: "/servicos/suporte-tecnico" },
+        { name: "Suporte Técnico e Monitoramento", href: "/servicos/suporte-tecnico" },
         { name: "Backup em Nuvem Seguro", href: "/servicos/backup-nuvem" },
         { name: "Servidores de Alta Disponibilidade", href: "/servicos/servidores-alta-disponibilidade" },
-        { name: "Firewall e Segurança", href: "/servicos/firewall-seguranca" },
+        { name: "Proteção contra Invasões (MikroTik)", href: "/servicos/firewall-seguranca" },
+        { name: "Controle de Internet (Proxy)", href: "/servicos/controle-proxy" },
         { name: "LGPD para Cartórios", href: "/servicos/lgpd-cartorios" },
     ];
 
@@ -42,8 +44,15 @@ export default function Header() {
         >
             <div className="container mx-auto px-4 flex justify-between items-center">
                 {/* Logo */}
-                <Link href="/" className="text-2xl font-bold text-white tracking-wide">
-                    I9 <span className="text-cyan-vibrant">Software</span>
+                <Link href="/" className="flex items-center">
+                    <Image
+                        src="/logo-new.png"
+                        alt="I9 Software Logo"
+                        width={180}
+                        height={50}
+                        className="object-contain"
+                        priority
+                    />
                 </Link>
 
                 {/* Desktop Menu */}

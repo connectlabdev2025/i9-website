@@ -7,6 +7,7 @@ import {
     Network,
     FileText,
     ArrowRight,
+    Lock,
 } from "lucide-react";
 
 export default function Services() {
@@ -19,8 +20,8 @@ export default function Services() {
         },
         {
             icon: <Headphones size={32} />,
-            title: "Suporte Técnico Mensal",
-            description: "Atendimento rápido para resolver problemas do dia a dia.",
+            title: "Suporte Técnico e Monitoramento",
+            description: "Além de consertar, nós monitoramos para não deixar parar.",
             link: "/servicos/suporte-tecnico",
         },
         {
@@ -37,8 +38,8 @@ export default function Services() {
         },
         {
             icon: <Network size={32} />,
-            title: "Firewall e Segurança",
-            description: "Proteção contra invasões e controle de acesso à rede.",
+            title: "Proteção contra Invasões (MikroTik)",
+            description: "Segurança de borda para impedir ataques externos.",
             link: "/servicos/firewall-seguranca",
         },
         {
@@ -46,6 +47,12 @@ export default function Services() {
             title: "LGPD para Cartórios",
             description: "Adequação à Lei Geral de Proteção de Dados.",
             link: "/servicos/lgpd-cartorios",
+        },
+        {
+            icon: <Lock size={32} />,
+            title: "Controle de Internet (Proxy)",
+            description: "Gerencie o acesso à web, bloqueando sites indevidos e aumentando a produtividade.",
+            link: "/servicos/controle-proxy",
         },
     ];
 

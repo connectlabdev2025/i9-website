@@ -5,8 +5,8 @@ import { Clock, HeartHandshake, Laptop, Activity } from 'lucide-react';
 export default function SuporteTecnicoPage() {
     return (
         <ServicePageTemplate
-            heroTitle="Suporte Técnico Especializado para Cartórios"
-            heroSubtitle="Seu cartório nunca para. Nosso suporte também não. Atendimento rápido e eficiente para garantir a continuidade do serviço."
+            heroTitle="Suporte Técnico e Monitoramento"
+            heroSubtitle="Seu cartório nunca para. Nosso monitoramento também não. Atuamos preventivamente para garantir a continuidade do serviço."
             problemTitle="Paradas no Atendimento ao Balcão"
             problemDescription="Um sistema parado significa filas, reclamações de usuários e prejuízo financeiro imediato. Depender de técnicos que não entendem a urgência e as particularidades de um cartório é um risco que você não pode correr."
             howItWorksSteps={[

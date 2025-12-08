@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
@@ -8,9 +9,15 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                     {/* About */}
                     <div>
-                        <h4 className="text-2xl font-bold mb-6">
-                            I9 <span className="text-[#00AEEF]">Software</span>
-                        </h4>
+                        <div className="mb-6">
+                            <Image
+                                src="/logo-new.png"
+                                alt="I9 Software Logo"
+                                width={160}
+                                height={45}
+                                className="object-contain"
+                            />
+                        </div>
                         <p className="text-gray-400 leading-relaxed mb-6">
                             Especialistas em tecnologia e compliance para Cartórios Extrajudiciais.
                             Garantimos a segurança jurídica e tecnológica que o seu ofício precisa.

@@ -5,8 +5,8 @@ import { Shield, Globe, Wifi, Lock } from 'lucide-react';
 export default function FirewallSegurancaPage() {
     return (
         <ServicePageTemplate
-            heroTitle="Firewall e Segurança de Rede"
-            heroSubtitle="Proteção total contra invasões e controle de acesso à internet."
+            heroTitle="Proteção contra Invasões (MikroTik)"
+            heroSubtitle="Segurança de borda avançada utilizando tecnologia MikroTik para blindar seu cartório contra ataques externos."
             problemTitle="Vulnerabilidade a Ataques Externos"
             problemDescription="Uma rede sem proteção adequada é uma porta aberta para hackers, malwares e vírus. Além disso, o uso indiscriminado da internet pelos funcionários pode comprometer a segurança e a produtividade."
             howItWorksSteps={[
