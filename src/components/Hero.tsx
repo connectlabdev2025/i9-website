@@ -53,6 +53,15 @@ export default function Hero() {
             description: "Atendimento especializado que não deixa seu cartório parar. Monitoramento 24/7 para identificar e resolver problemas antes que afetem sua produtividade.",
             primaryBtnText: "Falar com Suporte",
             primaryBtnLink: "/servicos/suporte-tecnico"
+        },
+        {
+            id: 'proxy',
+            type: 'image',
+            imgSrc: '/banner-proxy.png',
+            title: "Internet Segura e Produtiva (Proxy)",
+            description: "Bloqueie sites indevidos, gerencie acessos e aumente o foco da sua equipe com nosso Servidor Proxy.",
+            primaryBtnText: "Controlar Acesso à Internet",
+            primaryBtnLink: "/servicos/controle-proxy"
         }
     ];
 
